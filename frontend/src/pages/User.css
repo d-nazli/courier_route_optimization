@@ -1,0 +1,65 @@
+.user-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-section input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-section button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #0056b3;
+}
+
+.order-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.order-list li {
+  background: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-left: 4px solid #17a2b8;
+  border-radius: 8px;
+}
+
+.order-list button {
+  margin-top: 5px;
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-list button:hover {
+  background-color: #c82333;
+}
+
+.pending {
+  color: #ffc107;
+}
+
+.delivered {
+  color: #28a745;
+}
